@@ -1,0 +1,40 @@
+{
+    "name": "greed-is-good",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --coverage",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --coverage --watchAll",
+        "prettier:check": "prettier --check .",
+        "prettier:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "commitlint": "commitlint --edit",
+        "commit": "commit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaofavara/greed-is-good.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/joaofavara/greed-is-good/issues"
+    },
+    "homepage": "https://github.com/joaofavara/greed-is-good#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^17.7.1",
+        "@commitlint/config-angular": "^17.7.0",
+        "@commitlint/config-conventional": "^17.7.0",
+        "@commitlint/prompt-cli": "^17.7.1",
+        "eslint": "^8.49.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-import": "^2.28.1",
+        "husky": "^8.0.3",
+        "jest": "^29.7.0",
+        "prettier": "^3.0.3"
+    }
+}
