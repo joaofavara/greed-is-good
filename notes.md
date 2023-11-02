@@ -60,7 +60,7 @@ In some languages, it is possible to mutate the input to the function. This is s
 
 ### Pomodoro 3
 - refactor to use regex to count for each time number 2 is get ✅
-- refactor to use regex to count for each time number 3 is get
+- refactor to use regex to count for each time number 3 is get ✅
 - refactor to use regex to count for each time number 4 is get
 - refactor to use regex to count for each time number 6 is get
 - refactor to use regex to count for each time number 1 is get

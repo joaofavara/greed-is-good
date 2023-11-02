@@ -1,13 +1,18 @@
+const countNumberOccurenct = (input, value) => {
+    const regex = new RegExp(value, 'g');
+    return (input.toString().match(regex) || []).length
+};
+
 const greedIsGood = (input) => {
-    if ((input.toString().match(/2/g) || []).length  === 3) {
+    if (countNumberOccurenct(input, 2) === 3) {
         return 200;
     }
 
-    if (input.length > 1) {
-        if (input[0] === 3) {
-            return 300;
-        }
+    if (countNumberOccurenct(input, 3) === 3) {
+        return 300;
+    }
 
+    if (input.length > 1) {
         if (input[0] === 4) {
             return 400;
         }
