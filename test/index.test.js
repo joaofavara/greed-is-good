@@ -1,7 +1,7 @@
-const { dummy } = require('../src');
+const { greedIsGood } = require('../src');
 
-describe('Dummy Test', () => {
-    test('should return string "dummy"', () => {
-        expect(dummy()).toBe('dummy');
+describe('Greed Is Good', () => {
+    test('if has one 5 on dice rool should return 50 points', () => {
+        expect(greedIsGood(5)).toBe(50);
     });
 });

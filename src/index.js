@@ -1,5 +1,5 @@
-const dummy = () => 'dummy';
+const greedIsGood = () => 50;
 
 module.exports = {
-    dummy,
+    greedIsGood,
 };
