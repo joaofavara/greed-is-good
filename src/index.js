@@ -1,9 +1,9 @@
 const greedIsGood = (input) => {
-    if (input.length > 1) {
-        if (input[0] === 2) {
-            return 200;
-        }
+    if ((input.toString().match(/2/g) || []).length  === 3) {
+        return 200;
+    }
 
+    if (input.length > 1) {
         if (input[0] === 3) {
             return 300;
         }
