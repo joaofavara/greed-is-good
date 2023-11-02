@@ -37,4 +37,4 @@ In some languages, it is possible to mutate the input to the function. This is s
 
 ### Pomodoro 1
 - if has one 5 on dice rool should return 50 points ✅
-- if has one 1 on dice rool should return 100 points
+- if has one 1 on dice rool should return 100 points ✅
