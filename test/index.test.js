@@ -21,6 +21,10 @@ describe('Greed Is Good', () => {
         expect(greedIsGood([5,5,5,5])).toBe(550);
     });
 
+    test('if has 5 times 5 on dice rool should return 600 points', () => {
+        expect(greedIsGood([5,5,5,5,5])).toBe(600);
+    });
+
     test('if has one 1 on dice rool should return 100 points', () => {
         expect(greedIsGood([1])).toBe(100);
     });

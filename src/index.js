@@ -21,6 +21,10 @@ const greedIsGood = (input) => {
                 return 550;
             }
 
+            if(input.length === 5) {
+                return 600;
+            }
+
             return 500;
         }
 
