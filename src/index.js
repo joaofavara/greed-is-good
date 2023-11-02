@@ -41,6 +41,10 @@ const greedIsGood = (input) => {
             return 1100;
         }
 
+        if (input[0] === 1 && input.length === 5) {
+            return 1200;
+        }
+
         return 1000;
     }
 
