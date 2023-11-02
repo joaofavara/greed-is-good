@@ -44,3 +44,15 @@ In some languages, it is possible to mutate the input to the function. This is s
 - if has 3 times 5 on dice rool should return 500 points ✅
 - if has 3 times 6 on dice rool should return 600 points ✅
 - if has 3 times 1 on dice rool should return 1000 points ✅
+- if has 4 times 1 on dice rool should return 1100 points 🚧
+- if has 5 times 1 on dice rool should return 1200 points 🚧
+- if has 4 times 5 on dice rool should return 550 points 🚧
+- if has 5 times 5 on dice rool should return 600 points 🚧
+
+### Pomodoro 2
+- if has 2 times 5 on dice rool should return 100 points ✅
+- if has 4 times 5 on dice rool should return 550 points
+- if has 5 times 5 on dice rool should return 600 points
+- if has 2 times 1 on dice rool should return 200 points
+- if has 4 times 1 on dice rool should return 1100 points
+- if has 5 times 1 on dice rool should return 1200 points
