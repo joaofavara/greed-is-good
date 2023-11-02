@@ -40,23 +40,23 @@ const greedIsGood = (input) => {
         return 1200;
     }
 
-    if(input.length === 1) {
+    if (countNumberOccurenct(input, 5) === 1) {
         return 50;
     }
 
-    if(input.length === 2) {
+    if (countNumberOccurenct(input, 5) === 2) {
         return 100;
     }
 
-    if(input.length === 4) {
+    if (countNumberOccurenct(input, 5) === 3) {
+        return 500;
+    }
+
+    if (countNumberOccurenct(input, 5) === 4) {
         return 550;
     }
 
-    if(input.length === 5) {
-        return 600;
-    }
-
-    return 500;
+    return 600;
 }
 
 module.exports = {
