@@ -16,7 +16,11 @@ const greedIsGood = (input) => {
             return 500;
         }
 
-        return 600;
+        if (input[0] === 6) {
+            return 600;
+        }
+
+        return 1000;
     }
 
     return input[0] === 5 ? 50 : 100;
