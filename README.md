@@ -7,3 +7,4 @@
 
 ![github actions workflow](https://github.com/joaofavara/greed-is-good/actions/workflows/main.yml/badge.svg)
 
+Link for this kata: https://www.codewars.com/kata/5270d0d18625160ada0000e4
