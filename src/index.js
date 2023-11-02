@@ -16,6 +16,10 @@ const greedIsGood = (input) => {
         return 400;
     }
 
+    if (countNumberOccurenct(input, 6) === 3) {
+        return 600;
+    }
+
     if (input.length > 1) {
         if (input[0] === 5) {
             if(input.length === 2) {
@@ -32,11 +36,6 @@ const greedIsGood = (input) => {
 
             return 500;
         }
-
-        if (input[0] === 6) {
-            return 600;
-        }
-
 
         if (input[0] === 1 && input.length === 2) {
             return 200;
