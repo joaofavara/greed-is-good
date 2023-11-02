@@ -63,5 +63,5 @@ In some languages, it is possible to mutate the input to the function. This is s
 - refactor to use regex to count for each time number 3 is get ✅
 - refactor to use regex to count for each time number 4 is get ✅
 - refactor to use regex to count for each time number 6 is get ✅
-- refactor to use regex to count for each time number 1 is get
+- refactor to use regex to count for each time number 1 is get ✅
 - refactor to use regex to count for each time number 5 is get
