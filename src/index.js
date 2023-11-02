@@ -12,7 +12,11 @@ const greedIsGood = (input) => {
             return 400;
         }
 
-        return 500;
+        if (input[0] === 5) {
+            return 500;
+        }
+
+        return 600;
     }
 
     return input[0] === 5 ? 50 : 100;

@@ -42,3 +42,4 @@ In some languages, it is possible to mutate the input to the function. This is s
 - if has 3 times 3 on dice rool should return 300 points ✅
 - if has 3 times 4 on dice rool should return 400 points ✅
 - if has 3 times 5 on dice rool should return 500 points ✅
+- if has 3 times 6 on dice rool should return 600 points ✅
