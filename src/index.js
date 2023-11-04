@@ -11,65 +11,71 @@ const countNumberOccurenct = (input) => {
     input.forEach((value) => {
         numberOccurency[value] += 1;
     })
+
     return numberOccurency;
 };
 
 const greedIsGood = (input) => {
     const counting = countNumberOccurenct(input);
+    let score = 0;
 
     if (counting['2'] >= 3) {
-        return 200;
+        score += 200;
     }
 
     if (counting['3'] >= 3) {
-        return 300;
+        score += 300;
     }
 
     if (counting['4'] >= 3) {
-        return 400;
+        score += 400;
     }
 
     if (counting['6'] >= 3) {
-        return 600;
+        score += 600;
     }
 
     if (counting['1'] === 1) {
-        return 100;
+        score += 100;
     }
 
     if (counting['1'] === 2) {
-        return 200;
+        score += 200;
     }
 
     if (counting['1'] === 3) {
-        return 1000;
+        score += 1000;
     }
 
     if (counting['1'] === 4) {
-        return 1100;
+        score += 1100;
     }
 
     if (counting['1'] === 5) {
-        return 1200;
+        score += 1200;
     }
 
     if (counting['5'] === 1) {
-        return 50;
+        score += 50;
     }
 
     if (counting['5'] === 2) {
-        return 100;
+        score += 100;
     }
 
     if (counting['5'] === 3) {
-        return 500;
+        score += 500;
     }
 
     if (counting['5'] === 4) {
-        return 550;
+        score += 550;
     }
 
-    return 600;
+    if (counting['5'] === 5) {
+        score += 600;
+    }
+
+    return score;
 }
 
 module.exports = {

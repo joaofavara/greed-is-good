@@ -70,3 +70,4 @@ In some languages, it is possible to mutate the input to the function. This is s
 ### Pomodoro 4
 - refactor(test): fill input with 5 values ✅
 - refactor: logic to count number occurence at once ✅
+- if has many time different values
