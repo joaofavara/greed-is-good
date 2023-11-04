@@ -1,16 +1,16 @@
 const countNumberOccurenct = (input) => {
     const numberOccurency = {
-        '1': 0,
-        '2': 0,
-        '3': 0,
-        '4': 0,
-        '5': 0,
-        '6': 0,
-    }
+        1: 0,
+        2: 0,
+        3: 0,
+        4: 0,
+        5: 0,
+        6: 0,
+    };
 
     input.forEach((value) => {
         numberOccurency[value] += 1;
-    })
+    });
 
     return numberOccurency;
 };
@@ -76,7 +76,7 @@ const greedIsGood = (input) => {
     }
 
     return score;
-}
+};
 
 module.exports = {
     greedIsGood,
